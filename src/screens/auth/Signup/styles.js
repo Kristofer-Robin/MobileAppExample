@@ -1,4 +1,6 @@
-export const styles = StylesSheet.create ({
+import { StyleSheet } from "react-native"
+import { colors } from "../../../utils/colors"
+export const styles = StyleSheet.create ({
     container: {
         flexDirection: 'row',
         alignItems: 'center'
@@ -8,7 +10,7 @@ export const styles = StylesSheet.create ({
         height: 18
     },
     title: {
-        color: color.blue,
+        color: colors.blue,
         fontSize: 26,
         fontWeight: '500',
         paddingHorizontal: 16

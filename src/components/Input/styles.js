@@ -23,7 +23,7 @@ export const styles = StyleSheet.create({
         marginVertical: 8,
         color: colors.blue,
         fontWeight: '500'
-    }
+    },
     eye: {
         width: 24,
         height: 24,
