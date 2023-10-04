@@ -1,18 +1,23 @@
-import { StyleSheet } from "react-native"
-import { colors } from "../../../utils/colors"
+import { StyleSheet } from "react-native";
+
+import { colors } from "../../../utils/colors";
+
 export const styles = StyleSheet.create ({
     container: {
+        padding: 24,
+    },
+    agreeRow: {
         flexDirection: 'row',
         alignItems: 'center'
     },
-    image: {
-        width: 18,
-        height: 18
-    },
-    title: {
+    agreeText: {
         color: colors.blue,
-        fontSize: 26,
-        fontWeight: '500',
-        paddingHorizontal: 16
+        marginHorizontal: 14
+    },
+    agreeTextBold: {
+        fontWeight: 'bold'
+    },
+    button: {
+        marginVertical: 20
     }
 })

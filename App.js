@@ -7,6 +7,7 @@ const App = () => {
   return (
     <SafeAreaView>
       <Signup />
+
     </SafeAreaView>
   );
 };
