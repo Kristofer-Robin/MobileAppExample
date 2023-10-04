@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import {
     Text,
     View,
@@ -7,6 +7,11 @@ import {
 } from "react-native"
 import Button from "../../../components/Button"
 import { styles } from "./styles";
+import AuthHeader from "../../../components/AuthHeader";
+import Checkbox from "../../../components/Checkbox";
+import Input from "../../../components/Input";
+import Signup from "../Signup";
+
 
 const Splash = () => {
     return (
